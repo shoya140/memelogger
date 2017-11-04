@@ -10,6 +10,7 @@ html, body, #content {
     text-align: center;
     line-height: 1.4;
 }
+
 #splash {
     height: 100%;
     width: 100%;
@@ -37,15 +38,46 @@ img.appstore {
     width: 86%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+}
+
 h1{
     font-size: 340%;
     line-height: 30%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
-    font-weight: normal;
+a {
+    color: #dddddd;
 }
+a:hover {
+    color: #ffffff;
+}
+
+#description {
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+#screenshots {
+    margin-bottom: 2em;
+}
+
+#screenshots img {
+    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin: 1em;
+}
+
+#attribution {
+    font-size: small;
+    padding-bottom: 6em;
+}
+
 .icon-row {
     margin: 30px;
     margin-top: 40px;
@@ -64,50 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .icon-row img {
     width: 100%;
-    /*border-radius: 19px;*/
-    /*box-shadow: 0px 0px 2px rgba(0,0,0,0.5);*/
-}
-#description {
-    margin: auto;
-    width: 90%;
-    max-width: 900px;
-    white-space: pre-wrap;
-    text-align: left;
-}
-#screenshots {
-    margin-bottom: 2em;
-}
-#screenshots img {
-    border: 1px solid white;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
-    margin: 1em;
-}
-#stars {
-    text-align: center;
-    font-style: italic;
-    font-size: small;
-}
-#stars span {
-    display: block;
-    font-size: 30px;
-    font-style: normal;
-}
-#attribution {
-    font-size: small;
-    padding-bottom: 6em;
-}
-#attribution a {
-    color: #dddddd;
-}
-#attribution a:hover {
-    color: #ffffff;
-}
-
-a {
-    color: #dddddd;
-}
-a:hover {
-    color: #ffffff;
 }
 
 @media screen and (min-width: 900px) {
@@ -130,22 +118,17 @@ a:hover {
     #screenshots img {
         max-width: 200px;
     }
-    #like-container {
+    #chevron {
         position: absolute;
+        left: 50%;
         top: 100%;
-        right: 20px;
-        margin-top: -50px;
+        margin-top: -2em;
+        color: #10142a;
+        opacity: 0.5;
+        margin-left: -0.5em;
     }
 }
-#chevron {
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    margin-top: -2em;
-    color: #10142a;
-    opacity: 0.5;
-    margin-left: -0.5em;
-}
+
 @media screen and (max-width: 900px) {
     #chevron {
         display: none;
