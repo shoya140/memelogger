@@ -24,17 +24,17 @@ img.appstore {
     max-width: 120px;
 }
 .iphone {
-    background-image: url('/assets/img/iphone5s.png');
+    background-image: url('/assets/img/iphone6.png');
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    width: 720px;
-    height: 1440px;
 }
 .iphone img {
     position: absolute;
-    top: 17.9%;
-    left: 14%;
-    width: 73%;
+    top: 12%;
+    left: 7%;
+    width: 86%;
 }
 
 h1{
@@ -124,8 +124,8 @@ a:hover {
         text-align: left;
     }
     #splash .iphone {
-        width: 288px;
-        height: 576px;
+        width: 280px;
+        height: 570px;
     }
     #screenshots img {
         max-width: 200px;
@@ -151,8 +151,8 @@ a:hover {
         display: none;
     }
     #splash .iphone {
-        width: 192px;
-        height: 384px;
+        width: 200px;
+        height: 400px;
         display: inline-block;
     }
     #splash #left {
