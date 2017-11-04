@@ -24,7 +24,7 @@ img.appstore {
     max-width: 120px;
 }
 .iphone {
-    background-image: url('https://app-stop.appspot.com/static/5s.png');
+    background-image: url('/assets/img/iphone5s.png');
     background-size: contain;
     position: relative;
     width: 720px;
